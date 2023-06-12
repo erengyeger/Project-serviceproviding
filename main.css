@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hii{
+    background-color:  solid black;
+}
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 550px;
+}
+
+h1,
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 150px auto;
+    font-size: 18px;
+    color: white;
+}
+
+.container input {
+    margin-top: 4px;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 20px 0 20px;
+    font-size: 20px;
+}
+
+#btn {
+    background-color: #273427;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.container a{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    right:60px ;
+    top: 50px;
+    color: rgb(252, 253, 253);
+    font-size:26px ;
+}
+h3{
+    
+margin-top: 30px;
+}
+h3:hover{
+color: rgb(8, 8, 8);
+font-size: 25px;
+
+}
+#s-provider,
+h3,
+p,
+h5,
+p,h4 {
+    margin: 10px;
+    padding: 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+#mydiv {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(241, 239, 235);
+}
+
