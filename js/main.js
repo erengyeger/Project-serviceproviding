@@ -37,10 +37,10 @@ console.log(z);
         
         text+=`<div class="s-provider">
         <hr>
-		<h3 id="seemore" onclick="seemore()">${p.name}</h3>
+		<h3 id="seemore" onclick="seemore()">Name:${p.name}</h3>
 		<p>${p.occupation}</p>
-		<h5>${p.number}</h5>
-		<p>${p.city},${p.pincode}</p>
+		<h5>Mob no.${p.number}</h5>
+		<p>City:${p.city}, Pin code:${p.pincode}</p>
         <h4>${p.zone}</p>
 
 	</div>`

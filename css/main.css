@@ -5,20 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-#hii{
-    background-color:  solid black;
-}
+
 body {
     font-family: "Roboto Condensed", sans-serif;
-    background: url(background.jpg);
+    background: url(/bgimage/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 550px;
 }
-
-h1,
-h3 {
+label{
+    font-size: 25px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+}
+h1{  
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    color:black;
+    font-size: 65px;
     font-family: 'Courier New', Courier, monospace;
+   
 }
 
 .container {
@@ -38,6 +46,7 @@ h3 {
 }
 
 #btn {
+    border-radius: 25px;
     background-color: #273427;
     border: none;
     color: white;
@@ -58,10 +67,7 @@ h3 {
     color: rgb(252, 253, 253);
     font-size:26px ;
 }
-h3{
-    
-margin-top: 30px;
-}
+
 h3:hover{
 color: rgb(8, 8, 8);
 font-size: 25px;
@@ -86,3 +92,15 @@ p,h4 {
     background-color: rgb(241, 239, 235);
 }
 
+input{
+    border-radius: 90px;
+}
+
+
+
+
+.ex{
+    position: absolute;
+    left: 25px;
+    top: 500px;
+}
