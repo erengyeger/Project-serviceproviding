@@ -8,7 +8,7 @@
 
 body {
     font-family: "Roboto Condensed", sans-serif;
-    background: url(./bgimage/background.jpg);
+    background: url(../bgimage/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px 550px;
